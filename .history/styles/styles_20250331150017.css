@@ -1,0 +1,14 @@
+:root {
+    --font-primary: 'Karla', sans-serif;
+  
+    --color-primary: ##816CC5;
+    --color-secondary: #00C2FF;
+    --color-dark: #111;
+    --color-light: #f9f9f9;
+  
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+  }
