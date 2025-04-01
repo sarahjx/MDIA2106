@@ -1,6 +1,5 @@
 :root {
     --font-primary: 'Karla', sans-serif;
-    --font-logo: 'Niconne', cursive;
 
     --color-primary: #816CC5;
     --color-secondary: #CFADFF;
@@ -37,20 +36,12 @@
     align-items: center;
 }
 
-.header__title {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-sm); 
-    text-decoration: none; 
-    color: var(--color-light); 
-    font-size: var(--font-size-xxl);
-    font-weight: bold;
-    font-family: var(--font-logo);
-}
 
-.logo__icon {
-    height: 60px;
-    width: auto;
+
+.header__title {
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-lg);
+    color: var(--color-light);
 }
 
 .header__nav {
@@ -61,7 +52,7 @@
 
 .header__button {
     padding: var(--spacing-sm) var(--spacing-md);
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-sm);
     font-family: var(--font-primary);
     background-color: var(--color-primary);
     color: white;

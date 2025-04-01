@@ -49,7 +49,7 @@
 }
 
 .logo__icon {
-    height: 60px;
+    height: 50px;
     width: auto;
 }
 
@@ -61,7 +61,7 @@
 
 .header__button {
     padding: var(--spacing-sm) var(--spacing-md);
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-sm);
     font-family: var(--font-primary);
     background-color: var(--color-primary);
     color: white;

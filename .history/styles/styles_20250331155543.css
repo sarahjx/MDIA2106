@@ -1,6 +1,5 @@
 :root {
     --font-primary: 'Karla', sans-serif;
-    --font-logo: 'Niconne', cursive;
 
     --color-primary: #816CC5;
     --color-secondary: #CFADFF;
@@ -26,42 +25,37 @@
 
 /* Header Styles */
 .header {
-    background-color: var(--color-primary);
+    background-color: var(--color-light);
     padding: var(--spacing-md) var(--spacing-lg);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.header__container {
+  }
+  
+  .header__container {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+  }
+
+.header__logo {
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-lg);
+    color: var(--color-dark);
 }
 
-.header__title {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-sm); 
-    text-decoration: none; 
-    color: var(--color-light); 
-    font-size: var(--font-size-xxl);
-    font-weight: bold;
-    font-family: var(--font-logo);
-}
-
-.logo__icon {
-    height: 60px;
-    width: auto;
-}
-
+  /* NAVIGATION */
 .header__nav {
     display: flex;
     gap: var(--spacing-sm);
     flex-wrap: wrap;
 }
 
+  /* NAV BUTTONS */
 .header__button {
     padding: var(--spacing-sm) var(--spacing-md);
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-sm);
     font-family: var(--font-primary);
     background-color: var(--color-primary);
     color: white;

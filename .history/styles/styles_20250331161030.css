@@ -1,6 +1,5 @@
 :root {
     --font-primary: 'Karla', sans-serif;
-    --font-logo: 'Niconne', cursive;
 
     --color-primary: #816CC5;
     --color-secondary: #CFADFF;
@@ -40,18 +39,17 @@
 .header__title {
     display: flex;
     align-items: center;
-    gap: var(--spacing-sm); 
-    text-decoration: none; 
-    color: var(--color-light); 
-    font-size: var(--font-size-xxl);
+    gap: var(--spacing-sm); /* space between icon and text */
+    text-decoration: none; /* removes underline */
+    color: var(--color-light); /* adjust as needed */
+    font-size: var(--font-size-xl);
     font-weight: bold;
-    font-family: var(--font-logo);
-}
-
-.logo__icon {
-    height: 60px;
+  }
+  
+  .logo__icon {
+    height: 40px; /* or whatever size looks best */
     width: auto;
-}
+  }
 
 .header__nav {
     display: flex;
@@ -61,7 +59,7 @@
 
 .header__button {
     padding: var(--spacing-sm) var(--spacing-md);
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-sm);
     font-family: var(--font-primary);
     background-color: var(--color-primary);
     color: white;

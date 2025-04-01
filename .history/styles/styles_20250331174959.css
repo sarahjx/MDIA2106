@@ -25,6 +25,12 @@
 
 
 /* Header Styles */
+.body {
+    margin: 0;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-base);
+}
+
 .header {
     background-color: var(--color-primary);
     padding: var(--spacing-md) var(--spacing-lg);

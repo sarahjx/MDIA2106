@@ -25,6 +25,8 @@
 
 
 /* Header Styles */
+
+
 .header {
     background-color: var(--color-primary);
     padding: var(--spacing-md) var(--spacing-lg);
