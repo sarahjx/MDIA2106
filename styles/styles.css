@@ -55,30 +55,64 @@
 
 /* Colour Page Styles */
 
-.color-container {
-    display: flex;
-    gap: 16px;
+.color-page-title {
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+    color: var(--color-primary);
+    text-align: center;
     margin-top: 20px;
 }
-.color-box {
-    width: 100px;
-    height: 100px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    color: white;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+.color-page-subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--color-neutral);
+    text-align: center;
+    margin-top: 10px;
 }
-.primary { background-color: #816CC5; }
-.secondary { background-color: #CFADFF; }
-.neutral { background-color: #C6C6C6; color: black; }
-.success { background-color: #86CB92; }
-.warnings { background-color: #FC9E57; }
-.errors { background-color: #A8201A; }
+.color-page-container {
+    display: flex;
+    flex-direction: row; /* Ensures items are aligned horizontally */
+    gap: 16px; /* Adds spacing between the shapes */
+    margin-top: 20px;
+    justify-content: center; /* Centers the shapes horizontally */
+    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+    text-align: center;
+}
+
+.color-page-item {
+    display: flex;
+    flex-direction: column; /* Stacks the shape and label vertically */
+    align-items: center;
+    justify-content: center; /* Centers the shapes vertically */
+    height: 150px; /* Optional: Set a fixed height for consistent alignment */
+}
+
+.color-page-label {
+    margin-top: 8px; /* Adds spacing between the shape and the label */
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.color-page-primary {
+    background-color: #816CC5;
+}
+
+.color-page-secondary {
+    background-color: #CFADFF;
+}
+
+.color-page-success {
+    background-color: #86CB92;
+}
+
+.color-page-warnings {
+    background-color: #FC9E57;
+}
+
+.color-page-errors {
+    background-color: #A8201A;
+}
 
 
 
