@@ -199,14 +199,7 @@ body {
 /* 3D Rotation Animation */
 @keyframes rotateY {
     0% { transform: rotateY(0deg); }
-    100% { transform: rotateY(720deg); }
-}
-
-.floating-svg:hover {
-        animation-duration: 
-            3s, 
-            1s; 
-        filter: drop-shadow(0 6px 12px rgba(129, 108, 197, 0.3));
+    100% { transform: rotateY(7deg); }
 }
 
 /* Home Styles */

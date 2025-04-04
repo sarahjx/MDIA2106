@@ -172,7 +172,7 @@ body {
 .hero__floating-graphic {
     position: absolute;
     right: 25%;
-    top: 45%;
+    top: 50%;
     transform: translateY(-50%);
     width: 25vw; /* Responsive width */
     max-width: 300px;
@@ -200,13 +200,6 @@ body {
 @keyframes rotateY {
     0% { transform: rotateY(0deg); }
     100% { transform: rotateY(720deg); }
-}
-
-.floating-svg:hover {
-        animation-duration: 
-            3s, 
-            1s; 
-        filter: drop-shadow(0 6px 12px rgba(129, 108, 197, 0.3));
 }
 
 /* Home Styles */
