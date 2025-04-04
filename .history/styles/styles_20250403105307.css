@@ -25,7 +25,14 @@
 
 /* Header Styles */
 
-
+.references-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    font-family: 'Karla', sans-serif; /* Use the Karla font */
+    font-size: 16px; /* Set font size */
+    color: #333; /* Set text color */
+}
 
 
 
@@ -86,25 +93,7 @@
 
 
 /* References Page Styles */
-.references-header {
-    margin-top: 130px;
-    border-bottom: 3px solid rgb(129, 108, 197);
-    font-size: var(--font-size-xxl, 3rem);
-    font-family: karla;
-    text-align: center;
-}
 
-.references-content {
-    text-align: center;
-}
-
-.references-list {
-    display: inline-block;
-    font-family: karla;
-    font-size: var(--font-size-lg, 1.5rem);
-    text-align: left;
-    margin-top: 60px;
-}
 
 
 

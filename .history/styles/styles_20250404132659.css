@@ -87,8 +87,7 @@
 
 /* References Page Styles */
 .references-header {
-    margin-top: 130px;
-    border-bottom: 3px solid rgb(129, 108, 197);
+    margin-top: 100px;
     font-size: var(--font-size-xxl, 3rem);
     font-family: karla;
     text-align: center;
