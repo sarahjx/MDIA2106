@@ -207,7 +207,7 @@ body {
 }
 
 .footer a {
-    z-index: 2; 
+    z-index: 1; /* Ensure links are clickable */
     pointer-events: auto;
 }
 

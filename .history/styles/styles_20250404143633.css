@@ -207,7 +207,7 @@ body {
 }
 
 .footer a {
-    z-index: 2; 
+    z-index: 1; 
     pointer-events: auto;
 }
 

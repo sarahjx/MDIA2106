@@ -206,11 +206,6 @@ body {
     color: var(--color-light);
 }
 
-.footer a {
-    z-index: 2; 
-    pointer-events: auto;
-}
-
 .footer__container {
     max-width: 1200px;
     margin: 0 auto;

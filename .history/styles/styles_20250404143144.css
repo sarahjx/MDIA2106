@@ -206,11 +206,6 @@ body {
     color: var(--color-light);
 }
 
-.footer a {
-    z-index: 2; 
-    pointer-events: auto;
-}
-
 .footer__container {
     max-width: 1200px;
     margin: 0 auto;
@@ -271,9 +266,9 @@ body {
     opacity: 0.8;
 }
 
-.footer__members li, .footer__members a {
+.footer__members a {
     color: var(--color-light);
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
     transition: opacity 0.2s ease;
 }
