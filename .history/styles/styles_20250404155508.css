@@ -27,6 +27,7 @@
 
 
 /* Other Pages Navbar Styles */
+/* Sticky White Header for Secondary Pages */
 .other-page .header {
     position: sticky;
     top: 0;
@@ -46,6 +47,7 @@
 .other-page .header__button {
     color: var(--color-primary);
     background: transparent;
+    border: 2px solid transparent;
     transition: all 0.3s ease;
 }
 
