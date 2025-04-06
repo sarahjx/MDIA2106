@@ -27,6 +27,17 @@
 
 /* Logo Page Styles*/
 
+.logo_intro {
+    font-size: var(--font-size-sm); /* Adjust font size */
+    font-weight: normal; 
+    text-align: center;
+    line-height: 1.5; /* Adjust line height */
+    margin-bottom: 60px; /* Adds spacing below */
+    margin-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 .logo_main_content {
     padding-left: 80px;
     padding-right: 80px;
@@ -47,9 +58,9 @@
 }
 
 .logo_variations_text {
-    text-align: left; /* Ensures text is aligned to the left */
+    text-align: center; /* Ensures text is aligned to the left */
     font-size: var(--font-size-xl); /* Adjust font size */
-    font-weight: bolder; /* Makes it bold */
+    font-weight: bold; /* Makes it bold */
 }
 
 .logo_variations__full_color_image img,
@@ -59,6 +70,7 @@
 .logo_variations__vertical_stacked_image img {
     width: 80%; /* Makes sure images scale appropriately */
     height: auto; /* Maintains aspect ratio */
+    
 }
 
 .logo_variations__favicon_image img {
