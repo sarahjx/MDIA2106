@@ -1,0 +1,139 @@
+:root {
+    --font-primary: 'Karla', sans-serif;
+
+    --color-primary: #816CC5;
+    --color-secondary: #CFADFF;
+    --color-neutral: #C6C6C6;
+    --color-light: #ffffff;
+
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+
+    --font-size-xs: 0.75rem;   /* 12px */
+    --font-size-sm: 0.875rem;  /* 14px */
+    --font-size-base: 1rem;    /* 16px */
+    --font-size-md: 1.125rem;  /* 18px */
+    --font-size-lg: 1.5rem;    /* 24px */
+    --font-size-xl: 2rem;      /* 32px */
+    --font-size-xxl: 3rem;     /* 48px */
+}
+
+
+
+/* Header Styles */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-md) var(--spacing-lg);
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    font-family: var(--font-primary);
+}
+
+.site-title {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+    gap: var(--spacing-sm);
+    margin: 0;
+  }
+  
+  .site-title .logo {
+    height: 48px;
+    width: auto;
+  }
+  
+  .main-nav ul {
+    display: flex;
+    gap: var(--spacing-md);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--color-light);
+    font-size: var(--font-size-base);
+    transition: color 0.3s ease;
+  }
+  
+  .main-nav a:hover {
+    color: var(--color-secondary);
+  }
+
+
+
+
+
+
+
+
+
+/* Home Styles */
+
+
+
+
+
+
+
+
+
+/* Logo Page Styles*/
+
+
+
+
+
+
+
+
+
+/* Colour Page Styles */
+
+
+
+
+
+
+
+
+
+
+/* Typography Page Styles */
+
+
+
+
+
+
+
+
+
+
+/* Graphics Page Styles */
+
+
+
+
+
+
+
+
+/* References Page Styles */
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
