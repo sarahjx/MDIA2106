@@ -1,0 +1,162 @@
+:root {
+    --font-primary: 'Karla', sans-serif;
+
+    --color-primary: #816CC5;
+    --color-secondary: #CFADFF;
+    --color-neutral: #C6C6C6;
+    --color-light: #ffffff;
+
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+
+    --font-size-xs: 0.75rem;   /* 12px */
+    --font-size-sm: 0.875rem;  /* 14px */
+    --font-size-base: 1rem;    /* 16px */
+    --font-size-md: 1.125rem;  /* 18px */
+    --font-size-lg: 1.5rem;    /* 24px */
+    --font-size-xl: 2rem;      /* 32px */
+    --font-size-xxl: 3rem;     /* 48px */
+}
+
+
+
+/* Header Styles */
+.site-header {
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0 0 0;
+    background-color: var(--color-primary);
+    width: 100%;
+}
+
+.site-title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #4D4D4D;
+    margin-bottom: 0;
+}
+
+.metrolics-logo {
+    width: 16px;  
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.logo-color-1 { fill: var(--color-1); } 
+.logo-color-2 { fill: var(--color-2); } 
+.logo-color-3 { fill: var(--color-3); } 
+.logo-color-4 { fill: var(--color-4); } 
+.logo-color-5 { fill: var(--color-5); } 
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+
+.main-nav li {
+    height: 80px; 
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-nav a {
+    width: 115px;
+    height: 96px;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex: 0 0 auto;
+    transition: background-color 0.3s ease; 
+}
+
+.main-nav li:nth-child(1) a { background-color: var(--color-1); }
+.main-nav li:nth-child(2) a { background-color: var(--color-2); }
+.main-nav li:nth-child(3) a { background-color: var(--color-3); }
+.main-nav li:nth-child(4) a { background-color: var(--color-4); }
+.main-nav li:nth-child(5) a { background-color: var(--color-5); }
+
+.main-nav a:hover {
+    background-color: #F0F08C !important;
+    color: #0057C2;
+}
+
+
+
+
+
+
+
+
+/* Home Styles */
+
+
+
+
+
+
+
+
+
+/* Logo Page Styles*/
+
+
+
+
+
+
+
+
+
+/* Colour Page Styles */
+
+
+
+
+
+
+
+
+
+
+/* Typography Page Styles */
+
+
+
+
+
+
+
+
+
+
+/* Graphics Page Styles */
+
+
+
+
+
+
+
+
+/* References Page Styles */
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
