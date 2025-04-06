@@ -1,0 +1,218 @@
+:root {
+    --font-primary: 'Karla', sans-serif;
+    --font-logo: 'Niconne', cursive;
+
+    --color-primary: #816CC5;
+    --color-secondary: #CFADFF;
+    --color-neutral: #C6C6C6;
+    --color-light: #ffffff;
+
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+
+    --font-size-xs: 0.75rem;   /* 12px */
+    --font-size-sm: 0.875rem;  /* 14px */
+    --font-size-base: 1rem;    /* 16px */
+    --font-size-md: 1.125rem;  /* 18px */
+    --font-size-lg: 1.5rem;    /* 24px */
+    --font-size-xl: 2rem;      /* 32px */
+    --font-size-xxl: 3rem;     /* 48px */
+}
+
+
+
+/* Header Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-primary);
+}
+
+.main__content {
+    flex: 1;
+    position: relative;
+    z-index: 0;
+    background
+}
+
+.header {
+    position: sticky;
+    padding: var(--spacing-md) var(--spacing-lg);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--spacing-md);
+}
+
+.header__title {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm); 
+    text-decoration: none; 
+    color: var(--color-light); 
+    font-size: var(--font-size-xxl);
+    font-weight: bold;
+    font-family: var(--font-logo);
+}
+
+.logo__icon {
+    height: 60px;
+    width: auto;
+    margin-left: var(--spacing-xl);
+}
+
+.header__buttons {
+    display: flex;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+    margin-right: var(--spacing-xl);
+}
+
+.header__button {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: var(--font-size-base);
+    color: var(--color-primary);
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.header__button:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+}
+
+.hero-wrapper {
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+}
+
+.svg__background {
+    background-image: url('../images/hero-background.svg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.header__hero {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-lg);
+    align-items: flex-start; 
+    justify-content: center;
+    margin-top: clamp(4.5rem, 23vh, 35rem);
+    margin-left: clamp(2rem, 7vw, 10rem);
+}
+
+.header__hero-title {
+    font-size: clamp(2rem, 3vw, 4rem);
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.header__hero-text {
+    font-size: clamp(1rem, 1.5vw, 2.5rem);
+    color: var(--color-secondary);
+    margin-top: var(--spacing-sm);
+}
+
+
+
+
+
+
+/* Home Styles */
+
+
+
+
+
+
+
+
+
+/* Logo Page Styles*/
+
+
+
+
+
+
+
+
+
+/* Colour Page Styles */
+
+
+
+
+
+
+
+
+
+
+/* Typography Page Styles */
+
+
+
+
+
+
+
+
+
+
+/* Graphics Page Styles */
+
+
+
+
+
+
+
+
+/* References Page Styles */
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
+.footer {
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-lg);
+    color: white;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-lg);
+    background-color: var(--color-primary);
+    padding: 2rem;
+    color: white;
+    position: relative;
+    margin-top: var(--spacing-lg);
+    z-index: 1;
+}
+
