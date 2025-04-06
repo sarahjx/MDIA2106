@@ -55,19 +55,48 @@
 
 /* Colour Page Styles */
 
+body {
+    font-family: var(--font-primary);
+}
+
+/* Center and align the title with squiggly lines */
+.color-page-title-container {
+    display: flex;
+    align-items: center; /* Vertically aligns the squiggly lines and title */
+    justify-content: center; /* Centers the entire content */
+    gap: 4px; /* Adds spacing between the squiggly lines and the title */
+    margin: 20px auto; /* Adds spacing around the container and centers it */
+}
+
+.squiggly-line {
+    display: block; /* Ensures the squiggly lines are treated as block elements */
+    margin: 0 auto; /* Centers the squiggly lines */
+    width: 200px; /* Adjust width for symmetry */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Center and style the title */
 .color-page-title {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-xxl); /* Adjust font size for emphasis */
     font-weight: bold;
-    color: var(--color-primary);
+    color: rgb(33, 33, 33);
     text-align: center;
     margin-top: 20px;
+    white-space: nowrap; /* Ensures "Our Colours" stays on one line */
 }
-.color-page-subtitle {
-    font-size: var(--font-size-lg);
-    color: var(--color-neutral);
+
+
+/* Reduce the width of the color description */
+.color-page-description-container {
+    display: flex;
+    align-items: center;
     text-align: center;
-    margin-top: 10px;
+    justify-content: center;
+    gap: 16px; /* Space between elements inside the container */
+    max-width: 700px; /* Restricts the width of the description */
+    margin: 0 auto; /* Centers the description */
 }
+
 .color-page-container {
     display: flex;
     flex-direction: row; /* Ensures items are aligned horizontally */
@@ -114,12 +143,62 @@
     background-color: #A8201A;
 }
 
+ /* Container for the accessibility section */
+ .accessibility-section {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column by default */
+    gap: 40px; /* Space between each text-image pair */
+    margin: 20px auto;
+    max-width: 1200px; /* Limit the width for better readability */
+    padding: 0 16px; /* Add padding for smaller screens */
+}
 
+/* Individual accessibility items */
+.accessibility-item {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically by default */
+    align-items: center; /* Center-align content */
+    gap: 16px; /* Add spacing between text and image */
+    text-align: center; /* Center-align text */
+}
 
+/* Text description */
+.accessibility-text {
+    font-size: 1rem; /* Adjust font size */
+    line-height: 1.5; /* Improve readability */
+    max-width: 600px; /* Limit text width */
+}
 
+/* Images */
+.accessibility-image {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
 
+/* Responsive layout for larger screens */
+@media (min-width: 768px) {
+    .accessibility-section {
+        grid-template-columns: 1fr; /* Keep one column for stacking */
+    }
 
+    .accessibility-item {
+        flex-direction: row; /* Place text and image side by side */
+        justify-content: flex-start; /* Align items to the start */
+        align-items: center; /* Align items vertically */
+        text-align: left; /* Align text to the left */
+        gap: 20px; /* Add spacing between text and image */
+    }
 
+    .accessibility-text {
+        max-width: 50%; /* Limit the width of the text */
+    }
+
+    .accessibility-image {
+        max-width: 50%; /* Limit the width of the image */
+    }
+}
 
 /* Typography Page Styles */
 
