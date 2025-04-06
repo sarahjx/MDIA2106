@@ -307,6 +307,7 @@ body {
 
 /* Colour Page Styles */
 
+
 body {
     font-family: var(--font-primary);
 }
@@ -452,6 +453,8 @@ body {
     }
 }
 
+=======
+>>>>>>> main
 /* Typography Page Styles */
 
 body {
