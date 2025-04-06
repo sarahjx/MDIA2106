@@ -1,0 +1,136 @@
+:root {
+    --font-primary: 'Karla', sans-serif;
+
+    --color-primary: #816CC5;
+    --color-secondary: #CFADFF;
+    --color-neutral: #C6C6C6;
+    --color-light: #ffffff;
+
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+
+    --font-size-xs: 0.75rem;   /* 12px */
+    --font-size-sm: 0.875rem;  /* 14px */
+    --font-size-base: 1rem;    /* 16px */
+    --font-size-md: 1.125rem;  /* 18px */
+    --font-size-lg: 1.5rem;    /* 24px */
+    --font-size-xl: 2rem;      /* 32px */
+    --font-size-xxl: 3rem;     /* 48px */
+}
+
+
+
+/* Header Styles */
+
+
+
+
+
+
+
+
+
+
+/* Home Styles */
+
+
+
+
+
+
+
+
+
+/* Logo Page Styles*/
+
+
+
+
+
+
+
+
+
+/* Colour Page Styles */
+
+
+
+
+
+
+
+
+
+
+/* Typography Page Styles */
+
+
+
+
+
+
+
+
+
+
+/* Graphics Page Styles */
+.graphics-header {
+    margin-top: 130px;
+    border-bottom: 3px solid rgb(129, 108, 197);
+    font-size: var(--font-size-xxl, 3rem);
+    font-family: karla;
+    text-align: center;
+}
+
+.icon-subheader {
+    text-align: center;
+    margin-top: 50px;
+    font-family: karla;
+    font-size: var(--font-size-xl, 2.0rem);
+}
+
+.graphics-paragraph {
+    display: flex;
+    justify-content: center;
+    font-family: karla;
+    text-align: center;
+    font-size: var( --font-size-base, 1rem);
+    width: 500px;
+}
+
+
+
+
+
+
+/* References Page Styles */
+.references-header {
+    margin-top: 130px;
+    border-bottom: 3px solid rgb(129, 108, 197);
+    font-size: var(--font-size-xxl, 3rem);
+    font-family: karla;
+    text-align: center;
+}
+
+.references-content {
+    text-align: center;
+}
+
+.references-list {
+    display: inline-block;
+    font-family: karla;
+    font-size: var(--font-size-xl, 2.0rem);
+    text-align: left;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+/* Footer Styles */

@@ -110,14 +110,6 @@
     font-size: var(--font-size-xl, 2.0rem);
 }
 
-.menu-subheader {
-    color: rgb(129, 108, 197);
-    text-align: center;
-    margin-top: 50px;
-    font-family: karla;
-    font-size: var(--font-size-xl, 2.0rem);
-}
-
 .graphics-paragraph {
     font-family: karla;
     text-align: center;

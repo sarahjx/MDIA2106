@@ -87,7 +87,6 @@
 }
 
 .icon-subheader {
-    color: rgb(129, 108, 197);
     text-align: center;
     margin-top: 50px;
     font-family: karla;
@@ -95,23 +94,6 @@
 }
 
 .button-subheader {
-    color: rgb(129, 108, 197);
-    text-align: center;
-    margin-top: 50px;
-    font-family: karla;
-    font-size: var(--font-size-xl, 2.0rem);
-}
-
-.images-subheader {
-    color: rgb(129, 108, 197);
-    text-align: center;
-    margin-top: 50px;
-    font-family: karla;
-    font-size: var(--font-size-xl, 2.0rem);
-}
-
-.menu-subheader {
-    color: rgb(129, 108, 197);
     text-align: center;
     margin-top: 50px;
     font-family: karla;
@@ -134,22 +116,6 @@
     margin: 20px auto 40px auto; /* Top and bottom spacing, centered horizontally */
 }
 
-.image-paragraph {
-    font-family: karla;
-    text-align: center;
-    font-size: var(--font-size-base, 1rem);
-    max-width: 500px;
-    margin: 20px auto 40px auto; /* Top and bottom spacing, centered horizontally */
-}
-
-.menu-paragraph {
-    font-family: karla;
-    text-align: center;
-    font-size: var(--font-size-base, 1rem);
-    max-width: 500px;
-    margin: 20px auto 40px auto; /* Top and bottom spacing, centered horizontally */
-}
-
 .image-section {
     display: flex;
     justify-content: center;
@@ -159,53 +125,8 @@
 
 .icon-class {
     max-width: 100%;
-    width: 600px;
     height: auto;
-    border-bottom: 3px solid rgb(129, 108, 197);
 }
-
-.image-section-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px; /* Optional: add spacing below icons if needed */
-}
-
-.buttons-class {
-    max-width: 100%;
-    height: auto;
-    width: 600px;
-    border-bottom: 3px solid rgb(129, 108, 197);
-}
-
-.image-section-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px; /* Optional: add spacing below icons if needed */
-}
-
-.image-class {
-    max-width: 100%;
-    height: auto;
-    width: 600px;
-    border-bottom: 3px solid rgb(129, 108, 197);
-}
-
-.image-section-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px; /* Optional: add spacing below icons if needed */
-}
-
-.menu-class {
-    max-width: 100%;
-    height: auto;
-    width: 600px;
-    border-bottom: 3px solid rgb(129, 108, 197);
-}
-
 
 
 
