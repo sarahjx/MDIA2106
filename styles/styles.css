@@ -21,32 +21,50 @@
     --font-size-xxl: 3rem;     /* 48px */
 }
 
-
-
 /* Header Styles */
-
-
-
-
-
-
-
-
 
 /* Home Styles */
 
-
-
-
-
-
-
-
-
 /* Logo Page Styles*/
 
+.logo_main_content {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 5rem; /* Adds spacing below */
+}
 
+.logo_variations__full_color,
+.logo_variations__black_and_white,
+.logo_variations__greyscale,
+.logo_variations__monochromatic,
+.logo_variations__vertical_stacked,
+.logo_variations__favicon {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr; /* Text on the left, image on the right */
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adds spacing between text and image */
+    margin-bottom: 100px; /* Adds spacing below each variation */
+}
 
+.logo_variations_text {
+    text-align: left; /* Ensures text is aligned to the left */
+    font-size: var(--font-size-xl); /* Adjust font size */
+    font-weight: bolder; /* Makes it bold */
+}
+
+.logo_variations__full_color_image img,
+.logo_variations__black_and_white_image img,
+.logo_variations__greyscale_image img,
+.logo_variations__monochromatic_image img,
+.logo_variations__vertical_stacked_image img {
+    width: 80%; /* Makes sure images scale appropriately */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.logo_variations__favicon_image img {
+    width: 80%; /* Makes sure images scale appropriately */
+    height: auto; /* Maintains aspect ratio */
+}
 
 
 
@@ -55,25 +73,145 @@
 
 /* Colour Page Styles */
 
-
-
-
-
-
-
-
-
-
 /* Typography Page Styles */
 
+body {
+    font-family: var(--font-primary);
+}
 
 
 
+.typography_main_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-rows: auto; /* Rows adjust dynamically */
+    row-gap: 20px; /* Adjust spacing between elements */
+    column-gap: 80px; /* Adjust spacing between columns */
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 5rem; /* Adds spacing below */
+}
 
 
+.typography_intro {
+    grid-column:  1; /* Makes it span both columns */
+    text-align: left; /* Centers content */
+    margin-bottom: 20px; /* Adds spacing below */
+}
+
+.typography_styles {
+    grid-column: 1; /* Places it in the first column */
+    
+}
+
+.typography_heading_list {
+    grid-column: 2; /* Places it in the second column */
+
+}
+
+/* Typography Intro */
 
 
+.typography_intro__content {
+    font-size: var(--font-size-sm); /* Adjust font size */
+    font-weight: normal; /* Makes it bold */
+    line-height: 1.5; /* Adjust line height */
+    margin-bottom: 60px; /* Adds spacing below */
+}
+.typography_intro__subhead {
+    font-size: var(--font-size-lg); /* Adjust font size */
+    font-weight: bolder; /* Makes it bold */
+    margin-bottom: 20px; /* Adds spacing below */
+}
 
+.text_line {
+    height: 10px;
+    width: 100%;
+    background-color: var(--color-primary); /* Primary color */
+}
+
+.subhead {
+    grid-column: span 2; /* Makes it span both columns */
+    font-size: var(--font-size-lg); /* Adjust font size */
+    font-weight: bolder; /* Makes it bold */
+}
+.subhead_text {
+    font-size: var(--font-size-xl); /* Adjust font size */
+    font-weight: bolder; /* Makes it bold */
+    text-align: center; /* Centers content */
+}
+
+/* Typography Styles Section */
+
+.regular {
+    font-size: var(--font-size-xl);
+    font-weight: normal;
+}
+.regular_content {
+    font-size: var(--spacing-md);
+    font-weight: normal;
+}
+
+.bold {
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+}
+.bold_content {
+    font-size: var(--spacing-md);
+    font-weight: bold;
+}
+
+.italic {
+    font-size: var(--font-size-xl);
+    font-style: italic;
+}
+.italic_content {
+    font-size: var(--spacing-md);
+    font-style: italic;
+}
+
+
+/* Typography Headings */
+
+.typography_heading_list {
+    padding-top: 20px;
+}
+
+.heading01 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.heading02 {
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+}
+.heading03 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.heading04 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.heading05 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.heading06 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.body {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
 
 /* Graphics Page Styles */
 
