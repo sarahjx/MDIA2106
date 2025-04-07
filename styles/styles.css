@@ -445,6 +445,25 @@ body {
     }
 }
 
+/* Examples Section */
+.examples-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between images */
+    margin: 20px auto;
+    max-width: 1200px; /* Limit the width for better readability */
+    padding: 0 16px; /* Add padding for smaller screens */
+}
+
+/* Example Images */
+.example-image {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+
 /* Typography Page Styles */
 
 body {
@@ -714,10 +733,6 @@ body {
     width: 600px;
     border-bottom: 3px solid rgb(129, 108, 197);
 }
-
-
-
-
 
 /* References Page Styles */
 .references-header {
