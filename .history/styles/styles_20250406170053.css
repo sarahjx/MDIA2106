@@ -22,6 +22,11 @@
     --font-size-xxl: 3rem;     /* 48px */
 }
 
+
+
+
+
+
 /* Other Pages Navbar Styles */
 .other-page .header {
     position: sticky;
@@ -170,7 +175,7 @@ body {
     display: inline-block;
     align-items: center;
     justify-content: center;
-    padding: 1rem 2rem 1rem 4.8rem;
+    padding: 1rem 2rem 1rem 4rem;
     background-color: var(--color-primary);
     color: var(--color-light) !important;
     font-family: var(--font-primary);
